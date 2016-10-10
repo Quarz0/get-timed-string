@@ -3,3 +3,6 @@ Reads  a line of text from standard input, within a specified time (t)  in secon
 
 This function is a modified version of CS50's library's (https://manual.cs50.net/library/) GetString function.
 Supports Windows only since it makes use of "conio" library.
+
+Current Known Issue(s):
+Breaks when the string entered by the user exceeds the terminal column width.
